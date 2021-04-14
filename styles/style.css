@@ -1,0 +1,96 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+/* Basic config */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/* Header */
+
+.header {
+  padding-top: 100px;
+  margin-bottom: 25px;
+  color: #212121;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.title {
+  padding-top: 100px;
+  margin-bottom: 25px;
+  color: #212121;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.line {
+  width: 64px;
+  height: 2px;
+  margin: 0 auto 30px;
+  background-color: #e72424;
+  border: none;
+}
+
+.subtitle {
+  padding-bottom: 36px;
+  color: #86878B;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+/* Main*/
+
+.main {
+  text-align: center;
+}
+
+
+.card {
+  display: inline-block;
+  width: 350px;
+  margin: 31px 16px 31px;
+  padding: 20px 0;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+.card-title {
+  margin-bottom: 16px;
+  color: #333333;
+  font-size: 20px;
+}
+
+.card-description {
+  font-size: 14px;
+}
+
+.icon_lamp {
+  background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon_keyboard {
+  background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon_lightning {
+  background: url(../img/lightning.png) no-repeat center center;
+}
